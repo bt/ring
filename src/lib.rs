@@ -147,7 +147,7 @@ pub use limb::GFp_rand_mod;
 
 #[cfg(feature = "use_heap")]
 #[path = "rsa/rsa.rs"]
-mod rsa;
+pub mod rsa;
 
 pub mod signature;
 
