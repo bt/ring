@@ -17,7 +17,7 @@
 use {c, core, der, error};
 use untrusted;
 
-mod padding;
+pub mod padding;
 
 // `RSA_PKCS1_SHA1` is intentionally not exposed.
 pub use self::padding::{RSA_PKCS1_SHA256, RSA_PKCS1_SHA384, RSA_PKCS1_SHA512};
